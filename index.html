@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">🔖 Bookmark Manager</h1>
+        <button class="mode-toggle">🌗</button>
+    </header>
+
+    <main class="main-container">
+
+        <section class="form-section">
+            <h2>✨ Add Bookmark</h2>
+
+            <form class="bookmark-form">
+                <input type="text" class="input title-input" placeholder="📌 Title">
+                <input type="text" class="input url-input" placeholder="🔗 URL (https://)">
+                <button type="submit" class="btn add-btn">＋ Add</button>
+            </form>
+        </section>
+
+        <section class="view-toggle">
+            <button class="btn card-view">🗂 Card View</button>
+        </section>
+
+        <section class="bookmarks-container"></section>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
